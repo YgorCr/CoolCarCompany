@@ -11,6 +11,9 @@ end
 group :development, :test do
 	gem "sqlite3", "~> 1.3.10", :require => "sqlite3"
 end
+
+#problema com o uglifier
+gem 'therubyracer' 
 #gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
