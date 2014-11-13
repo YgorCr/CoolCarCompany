@@ -5,6 +5,7 @@ gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
@@ -18,7 +19,6 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'rails_12factor'
 #gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 # Use CoffeeScript for .js.coffee assets and views
 #gem 'coffee-rails', '~> 4.0.0'
