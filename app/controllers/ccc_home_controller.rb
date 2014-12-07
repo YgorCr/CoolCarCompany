@@ -1,0 +1,2 @@
+class CccHomeController < ApplicationController
+end

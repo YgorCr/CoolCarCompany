@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @vechicle.name %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @vechicle.number %>
+</p>
+
+<p>
+  <strong>Design:</strong>
+  <%= @vechicle.design %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @vechicle.year %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @vechicle.price %>
+</p>
+
+<p>
+  <strong>Availability:</strong>
+  <%= @vechicle.availability %>
+</p>
+
+<%= link_to 'Edit', edit_vechicle_path(@vechicle) %> |
+<%= link_to 'Back', vechicles_path %>
